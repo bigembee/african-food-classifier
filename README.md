@@ -14,6 +14,8 @@ Upload a photo of an African dish or take one with your webcam. The app uses
 `african_food_model.pkl` to show the model's top predictions and confidence
 scores.
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/bigembee/african-food-classifier)
+
 ## Run locally
 
 ```bash
@@ -31,9 +33,7 @@ python app.py
    hf upload YOUR_USERNAME/YOUR_SPACE_NAME . --type space
    ```
 
-The `.gitattributes` file tracks the model with Git LFS. Keep
-`african_food_model.pkl` in the Space repository root; the app loads it on
-startup.
+The `.gitattributes` file tracks the model with Git LFS. To use the model: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/bigembee/african-food-classifier)
 
 See the [Spaces configuration reference](https://huggingface.co/docs/hub/spaces-config-reference)
 for available runtime settings.
